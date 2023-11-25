@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Educación",
+    "title": "Web Full-Stack Developer y Ciencias de Computación",
+    "institution": "Academlo",
+    "date": "Febrero 2023",
+    "description": "Implementé tecnologías clave como JavaScript, HTML5, CSS3, React, Redux, Node.js, PostgreSQL y Next.js en proyectos de desarrollo. Utilicé herramientas de diseño para crear interfaces atractivas. Simulé un ambiente laboral ágil con la metodología SCRUM, mejorando la gestión de proyectos. Desarrollé habilidades de trabajo en equipo y productividad, facilitando la colaboración efectiva.",
+    "position": "izq"
+  },
+  {
+    "category": "Educación",
+    "title": "Programación Básica",
+    "institution": "Platzi",
+    "date": "Agosto 2022",
+    "description": "Adquirí sólidas bases en desarrollo de software, dominando tecnologías clave como JavaScript, HTML5 y CSS3 desde los fundamentos hasta un nivel técnico avanzado. Amplié mis conocimientos en programación y diseño web, permitiéndome crear soluciones eficientes y atractivas. Desarrollé habilidades para construir aplicaciones web dinámicas y responsivas. Mi capacidad de resolver problemas y enfrentar desafíos técnicos se fortaleció, brindándome confianza en mi capacidad de abordar proyectos complejos.",
+    "position": "izq"
+  },
+  {
+    "category": "Experiencia de Trabajo",
+    "title": "Técnico en Software y Hardware",
+    "institution": "Intelcenter Technology",
+    "date": "Junio 2021 - Agosto 2022",
+    "description": "Como técnico de computadoras e impresoras, logré diagnosticar y reparar software, brindando un excelente servicio al cliente. Adquirí conocimientos en sistemas operativos y en el manejo de diferentes marcas y modelos. Me enfrenté a desafíos que me ayudaron a crecer personal y profesionalmente, desarrollando habilidades de adaptabilidad y gestión del tiempo.",
+    "position": "der"
+  },
+  {
+    "category":"Experiencia de Trabajo",
+    "title":"Técnico Telecomunicaciones",
+    "institution":"Tabasco",
+    "date":"Noviembre 2019 - Junio 2021",
+    "description": "Como técnico en telecomunicaciones, realicé tareas de instalación, configuración y mantenimiento de equipos y redes. Logré resolver eficientemente problemas técnicos, mejorando la conectividad y la comunicación. Aprendí sobre redes, protocolos y sistemas de comunicación, desarrollando habilidades analíticas y de resolución de problemas. Me enfrenté a desafíos que fortalecieron mi capacidad de trabajar en entornos dinámicos.",
+    "position":"der"
+  }
+]

@@ -1,0 +1,70 @@
+.contacto {
+  background-color: #fff;
+  color: #323232;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #757575;
+}
+.contacto .contenido-seccion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.contacto h2 {
+  font-size: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+.contacto .row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+}
+.contacto .column {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contacto .column input,
+.contacto .column textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #757575;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.contacto .column textarea {
+  height: 100px;
+}
+.contacto button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #757575;
+  width: fit-content;
+
+  padding: 10px 22px;
+  font-size: 16px;
+  position: relative;
+  z-index: 10;
+  transition: 0.5s;
+}
+.contacto button:hover {
+  transform: scale(1.05);
+}

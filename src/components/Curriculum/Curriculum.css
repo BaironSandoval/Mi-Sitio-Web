@@ -1,0 +1,50 @@
+.curriculum {
+  background-color: white;
+  color: #323232;
+  width: 100%;
+  height: 100vh;
+  border-top: 1px solid #757575;
+}
+.curriculum .contenido-seccion {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.curriculum h2 {
+  font-size: 48px;
+  font-family: 'Righteous';
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  color: #333;
+}
+.contenedor-carrusel {
+  overflow-x: hidden;
+  width: 100%;
+}
+.carousel-container {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.container-buttons button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #323232;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #757575;
+  transition: 0.5s;
+}
+
+.container-buttons button:hover {
+  background-color: #8cc3ff;
+  transform: scale(1.05);
+  color: white;
+}

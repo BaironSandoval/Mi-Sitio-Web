@@ -1,0 +1,62 @@
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #757575;
+  }
+  .portfolio .contenido-seccion {
+    width: -webkit-fill-available;
+  }
+  .portfolio h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0;
+    color: #323232;
+  }
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #c2ecff;
+    box-shadow: 0 0 20px rgb(86 255 252 / 40%);
+    color: #323232;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .swiper-wrapper {
+    display: flex;
+  }
+  .product-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .product-txt {
+    flex-basis: 50%;
+  }
+  .product-txt h3 {
+    font-size: 20px;
+    color: #323232;
+    text-transform: uppercase;
+  }
+  .product-txt p {
+    font-size: 14px;
+    color: #323232;
+  }
+  .product-img {
+    flex-basis: 50%;
+    text-align: right;
+  }
+  .product-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
