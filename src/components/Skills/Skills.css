@@ -43,6 +43,17 @@
     text-align: center;
     margin: 0;
   }
+  .container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .container-skills-izq, .container-skills-der {
+    gap: 10px;
+  }
   .skills .skill {
     display: flex;
     justify-content: start;

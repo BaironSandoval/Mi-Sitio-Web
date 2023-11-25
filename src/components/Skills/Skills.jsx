@@ -269,29 +269,36 @@ const Skills = () => {
 
           <div className="col">
             <h3>Professional Skills</h3>
-            <div className="skill">
-              <span className="container-i">
-                <i className="fa-solid fa-comments"></i>
-              </span>
-              <span className="container-text">Comunicación asertiva</span>
-            </div>
-            <div className="skill">
-              <span className="container-i">
-                <i className="fa-solid fa-people-group"></i>
-              </span>
-              <span className="container-text">Trabajo en Equipo</span>
-            </div>
-            <div className="skill">
-              <span className="container-i">
-                <i className="fa-brands fa-creative-commons-remix"></i>
-              </span>
-              <span className="container-text">Creatividad</span>
-            </div>
-            <div className="skill">
-              <span className="container-i">
-                <i className="fa-solid fa-award"></i>
-              </span>
-              <span className="container-text">Dedicación</span>
+            <div className="container-skills">
+              <div className="container-skills-izq">
+                <div className="skill">
+                  <span className="container-i">
+                    <i className="fa-solid fa-comments"></i>
+                  </span>
+                  <span className="container-text">Comunicación asertiva</span>
+                </div>
+                <div className="skill">
+                  <span className="container-i">
+                    <i className="fa-solid fa-people-group"></i>
+                  </span>
+                  <span className="container-text">Trabajo en Equipo</span>
+                </div>
+              </div>
+
+              <div className="container-skills-der">
+                <div className="skill">
+                  <span className="container-i">
+                    <i className="fa-brands fa-creative-commons-remix"></i>
+                  </span>
+                  <span className="container-text">Creatividad</span>
+                </div>
+                <div className="skill">
+                  <span className="container-i">
+                    <i className="fa-solid fa-award"></i>
+                  </span>
+                  <span className="container-text">Dedicación</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
