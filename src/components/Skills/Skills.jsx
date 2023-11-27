@@ -1,5 +1,19 @@
 import React from "react";
 import "./Skills.css";
+
+import js from "../Images/js.png"
+import react from "../Images/react.svg"
+import node from "../Images/node.png"
+import express from "../Images/expressjs.png"
+import html from "../Images/html.webp"
+import css from "../Images/css.webp"
+import tailwind from "../Images/tailwind.png"
+import redux from "../Images/redux.png"
+import postgresql from "../Images/Postgresql_elephant.png"
+import git from "../Images/git.png"
+import github from "../Images/github-black.png"
+
+
 const Skills = () => {
   return (
     <section id="skills" className="skills">
@@ -18,7 +32,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/js.png"
+                      src={js}
                       alt="js"
                     />
                   </picture>
@@ -28,7 +42,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/html.webp"
+                      src={html}
                       alt="HTML5"
                     />
                   </picture>
@@ -38,7 +52,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/css.webp"
+                      src={css}
                       alt="CSS3"
                     />
                   </picture>
@@ -48,7 +62,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/tailwind.png"
+                      src={tailwind}
                       alt="Tailwind"
                     />
                   </picture>
@@ -58,7 +72,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/react.svg"
+                      src={react}
                       alt="REACT"
                     />
                   </picture>
@@ -68,7 +82,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/redux.png"
+                      src={redux}
                       alt="Redux"
                     />
                   </picture>
@@ -78,7 +92,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/node.png"
+                      src={node}
                       alt="Node.JS"
                     />
                   </picture>
@@ -88,7 +102,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/expressjs.png"
+                      src={express}
                       alt="Express.JS"
                     />
                   </picture>
@@ -98,7 +112,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/Postgresql_elephant.png"
+                      src={postgresql}
                       alt="PostgreSQL"
                     />
                   </picture>
@@ -108,7 +122,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/git.png"
+                      src={git}
                       alt="GIT"
                     />
                   </picture>
@@ -118,7 +132,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/github-black.png"
+                      src={github}
                       alt="Github"
                     />
                   </picture>
@@ -128,7 +142,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/js.png"
+                      src={js}
                       alt="js"
                     />
                   </picture>
@@ -138,7 +152,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/html.webp"
+                      src={html}
                       alt="HTML5"
                     />
                   </picture>
@@ -148,7 +162,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/css.webp"
+                      src={css}
                       alt="CSS3"
                     />
                   </picture>
@@ -158,7 +172,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/tailwind.png"
+                      src={tailwind}
                       alt="Tailwind"
                     />
                   </picture>
@@ -168,7 +182,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/react.svg"
+                      src={react}
                       alt="REACT"
                     />
                   </picture>
@@ -178,7 +192,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/redux.png"
+                      src={redux}
                       alt="Redux"
                     />
                   </picture>
@@ -188,7 +202,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/node.png"
+                      src={node}
                       alt="Node.JS"
                     />
                   </picture>
@@ -198,7 +212,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/expressjs.png"
+                      src={express}
                       alt="Express.JS"
                     />
                   </picture>
@@ -208,7 +222,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/Postgresql_elephant.png"
+                      src={postgresql}
                       alt="PostgreSQL"
                     />
                   </picture>
@@ -218,7 +232,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/git.png"
+                      src={git}
                       alt="GIT"
                     />
                   </picture>
@@ -228,7 +242,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/github-black.png"
+                      src={github}
                       alt="Github"
                     />
                   </picture>
@@ -238,7 +252,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/js.png"
+                      src={js}
                       alt="js"
                     />
                   </picture>
@@ -248,7 +262,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/html.webp"
+                      src={html}
                       alt="HTML5"
                     />
                   </picture>
@@ -258,7 +272,7 @@ const Skills = () => {
                     <img
                       width="100"
                       height="100"
-                      src="./public/css.webp"
+                      src={css}
                       alt="CSS3"
                     />
                   </picture>

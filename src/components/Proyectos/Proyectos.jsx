@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import Swiper from "swiper";
-//import "swiper/swiper-bundle.min.css";
 import "./Proyectos.css";
+
+import appGalaxy from "../Images/know_galaxy.jpeg"
+import appPokedex from "../Images/pokedex.jpeg"
+import appRickAndMorty from "../Images/rick_and_morty.jpeg"
+import appWeather from "../Images/weather_app.jpeg"
+import appCrud from "../Images/crud.jpeg"
+import appShopping from "../Images/Shopping_cartone.jpeg"
 
 const Proyectos = () => {
   useEffect(() => {
@@ -41,7 +47,7 @@ const Proyectos = () => {
                     <p>React</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/know_galaxy.jpeg" alt="pokedex" />
+                    <img src={appGalaxy} alt="pokedex" />
                   </div>
                 </div>
               </a>
@@ -59,7 +65,7 @@ const Proyectos = () => {
                     <p>React</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/pokedex.jpeg" alt="pokedex" />
+                    <img src={appPokedex} alt="pokedex" />
                   </div>
                 </div>
               </a>
@@ -77,7 +83,7 @@ const Proyectos = () => {
                     <p>React</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/rick_and_morty.jpeg" alt="pokedex" />
+                    <img src={appRickAndMorty} alt="pokedex" />
                   </div>
                 </div>
               </a>
@@ -95,7 +101,7 @@ const Proyectos = () => {
                     <p>React</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/weather_app.jpeg" alt="pokedex" />
+                    <img src={appWeather} alt="pokedex" />
                   </div>
                 </div>
               </a>
@@ -113,7 +119,7 @@ const Proyectos = () => {
                     <p>React</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/crud.jpeg" alt="pokedex" />
+                    <img src={appCrud} alt="pokedex" />
                   </div>
                 </div>
               </a>
@@ -131,7 +137,7 @@ const Proyectos = () => {
                     <p>Javascript</p>
                   </div>
                   <div className="product-img">
-                    <img src="./public/Shopping_cartone.jpeg" alt="pokedex" />
+                    <img src={appShopping} alt="pokedex" />
                   </div>
                 </div>
               </a>

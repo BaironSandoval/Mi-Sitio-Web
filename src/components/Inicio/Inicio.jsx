@@ -1,12 +1,15 @@
 import React from "react";
 import "./Inicio.css";
+import fotoPerfil from "../Images/foto-portafolio.png"
+
+
 const Inicio = () => {
   return (
     <section id="inicio" className="inicio">
       <div className="contenido-banner">
         <div className="contenido-banner">
           <div className="contenedor-img">
-            <img src="./public/foto-portafolio.png" alt="mi-foto" />
+            <img src={fotoPerfil} alt="mi-foto" />
           </div>
           <div className="container-titles">
             <h1>BAIRON SANDOVAL</h1>
