@@ -55,7 +55,7 @@ const Proyectos = () => {
 
             <div className="swiper-slide">
               <a
-                href="https://pokedex-jcb.netlify.app/"
+                href="https://knowpokemonworld.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
