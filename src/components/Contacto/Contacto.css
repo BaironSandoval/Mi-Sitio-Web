@@ -1,12 +1,10 @@
 .contacto {
-  background-color: #fff;
-  color: #323232;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: 1px solid #757575;
+  border-top: 1px solid;
 }
 .contacto .contenido-seccion {
   display: flex;
