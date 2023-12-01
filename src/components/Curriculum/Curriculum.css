@@ -30,16 +30,17 @@
 .container-buttons button {
   margin: 10px;
   padding: 8px 16px;
-  font-size: 16px;
+  font-size: 26px;
   cursor: pointer;
   background-color: transparent;
   border: none;
-  border-radius: 4px;
+  border-radius: 50%;
   border: 1px solid #757575;
   transition: 0.5s;
 }
 
 .container-buttons button:hover {
-  background-color: #8cc3ff;
-  transform: scale(1.05);
+  background-color: #ffffff;
+  transform: scale(0.9);
+  box-shadow: 0 0 10px 5px gray;
 }

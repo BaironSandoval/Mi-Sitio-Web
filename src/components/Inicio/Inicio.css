@@ -12,7 +12,7 @@
     justify-content: center;
   }
   .inicio .contenido-banner {
-    background-color: rgba(204, 204, 204, 0.26);
+    background-color: rgba(160, 160, 160, 0.685);
     width: 350px;
     height: 420px;
     text-align: center;
@@ -22,6 +22,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    box-shadow: 5px 5px 15px 1px rgba(180, 180, 180, 0.521);
+    border: none;
   }
   .inicio .contenido-banner img { 
     border: 3px solid #008ac9;
@@ -85,7 +87,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #30beff;
+    background-color: #ffffff;
     border-radius: 4px;
     z-index: -1;
     transition: 1s;

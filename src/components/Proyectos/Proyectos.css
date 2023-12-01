@@ -20,12 +20,9 @@
   .swiper-slide {
     width: 300px;
     height: 300px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(86, 173, 255, 0.4);
     background-color: rgba(204, 204, 204, 0.26);
     padding: 40px;
     text-align: center;
-    border-radius: 10px;
   }
   .swiper-wrapper {
     display: flex;
@@ -35,6 +32,10 @@
     justify-content: space-around;
     flex-direction: column-reverse;
     align-items: center;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px 1px rgba(180, 180, 180, 0.521);
   }
   .product-txt {
     flex-basis: 50%;
@@ -42,16 +43,18 @@
   .product-txt h3 {
     font-size: 20px;
     text-transform: uppercase;
+    color: #008ac9
   }
   .product-txt p {
     font-size: 14px;
+    color: #008ac9
   }
   .product-img {
     flex-basis: 50%;
     text-align: right;
   }
   .product-img img {
-    width: 300px;
+    width: 298px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
   }

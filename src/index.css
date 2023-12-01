@@ -1,7 +1,10 @@
 * {
     text-decoration: none;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .dark-mode {
     background-color: #333;
     color: #fff;
@@ -19,6 +22,13 @@
   }
 button {
     background-color: #fff;
-    color: #007bff;
+    color: #008ac9;
+    transition: 1s;
 }
-  
+button:hover {
+    box-shadow: 0 0 10px 3px gray;
+    transform: scale(1.1);
+}
+html {
+    scroll-behavior: smooth;
+  }
