@@ -1,9 +1,17 @@
 [
+    {
+    "category": "Educación",
+    "title": "Análisis y Desarrollo de Software",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "date": "Noviembre 2023 - Febrero 2026",
+    "description": "Actualmente estoy inmerso en este programa, perfeccionando mis habilidades para crear aplicaciones informáticas, cumpliendo con requisitos técnicos y funcionales. Desarrollo métodos de trabajo tanto individual como en equipo, priorizando valores éticos, profesionales y personales. Esta formación no solo beneficia a la sociedad, sino que también contribuye a la competitividad del país en el sector empresarial de las Tecnologías de la Información y las Comunicaciones, reconocido a nivel mundial como esencial.",
+    "position": "izq"
+  },
   {
     "category": "Educación",
     "title": "Web Full-Stack Developer y Ciencias de Computación",
     "institution": "Academlo",
-    "date": "Febrero 2023",
+    "date": "Febrero 2023 - Octubre 2023",
     "description": "Implementé tecnologías clave como JavaScript, HTML5, CSS3, React, Redux, Node.js, PostgreSQL y Next.js en proyectos de desarrollo. Utilicé herramientas de diseño para crear interfaces atractivas. Simulé un ambiente laboral ágil con la metodología SCRUM, mejorando la gestión de proyectos. Desarrollé habilidades de trabajo en equipo y productividad, facilitando la colaboración efectiva.",
     "position": "izq"
   },

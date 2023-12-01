@@ -1,4 +1,9 @@
-  .carousel-slide {
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.carousel-slide {
     min-width: 100%;
     box-sizing: border-box;
     text-align: center;

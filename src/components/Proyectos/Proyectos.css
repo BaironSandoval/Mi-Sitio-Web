@@ -36,6 +36,10 @@
     border-radius: 10px;
     border: 2px solid gray;
     box-shadow: 5px 5px 10px 1px rgba(180, 180, 180, 0.521);
+    transition: 1.1s;
+  }
+  .product-content:hover {
+    transform: scale(1.05);
   }
   .product-txt {
     flex-basis: 50%;
