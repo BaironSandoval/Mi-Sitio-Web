@@ -26,7 +26,7 @@ const App = () => {
         className="floating-button"
         onClick={() => setDarkMode(!darkMode)}
       >
-        {darkMode ? <i className="fa-regular fa-lightbulb"></i> : <i className="fa-solid fa-lightbulb"></i>}
+        {darkMode ? <i className="fa-solid fa-lightbulb"></i> : <i className="fa-regular fa-lightbulb"></i>}
       </button>
     </div>
   );

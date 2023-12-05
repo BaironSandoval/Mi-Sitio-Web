@@ -52,7 +52,7 @@ const Inicio = () => {
             rel="noreferrer"
           >
             <button className="btn-inicio">
-              Descargar CV
+              MI CV
               <i className="fa-solid fa-download"></i>
               <span className="overlay"></span>
             </button>
