@@ -16,7 +16,7 @@ const Header = () => {
     <div className="contenedor-header">
       <header>
         <div className="logo">
-          <a href="#">&lt;Bairon <i className="fa-solid fa-laptop-code"> /&gt; </i></a>
+          <a href="#">Bairon <i className="fa-solid fa-laptop-code"></i></a>
         </div>
         <nav id="nav" className={menuVisible ? 'responsive' : ''}>
           <ul>

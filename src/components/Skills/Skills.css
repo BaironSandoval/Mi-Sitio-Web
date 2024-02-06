@@ -1,124 +1,124 @@
 .skills {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
+}
+.skills .contenido-seccion {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.skills h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+.skills .fila {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.skills .fila .col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.skills .fila .col h3 {
+  font-size: 28px;
+  font-family: "Righteous";
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+.container-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.container-skills-izq,
+.container-skills-der {
+  gap: 10px;
+}
+.skills .skill {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.skills .skill > span {
+  font-size: x-large;
+}
+.skills .skill .container-i {
+  width: 70px;
+}
+.skills .skill > span i {
+  background-color: transparent;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .skill > span i:hover {
+  filter: drop-shadow(0 0 0.75rem #008ac9);
+  transform: rotateY(3.142rad);
+  transition: 1s;
+}
+.skills .skill .container-text {
+  width: 250px;
+}
+/* Scroll infinito */
+
+.contenedor--planetas {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.lista--planetas {
+  width: 100%;
+  background-color: transparent;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.lista--planetas::-webkit-scrollbar {
+  width: 0;
+}
+.lista--planetas li {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.lista--planetas li:hover {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  filter: brightness(1.75);
+}
+.lista--planetas li img {
+  width: 100px;
+}
+.lista--planetas li {
+  animation: scrollInfinito 30s linear infinite;
+}
+@keyframes scrollInfinito {
+  0% {
+    transform: translateX(0%);
   }
-  .skills .contenido-seccion {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    border-top: 1px solid;
+  100% {
+    transform: translateX(calc(-210px * 5));
   }
-  .skills h2 {
-    font-size: 48px;
-    font-family: 'Righteous';
-    font-weight: normal;
-    text-align: center;
-    margin: 0;
-  }
-  .skills .fila {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  .skills .fila .col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-  }
-  .skills .fila .col h3  {
-    font-size: 28px;
-    font-family: 'Righteous';
-    font-weight: normal;
-    text-align: center;
-    margin: 0;
-  }
-  .container-skills {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-  }
-  .container-skills-izq, .container-skills-der {
-    gap: 10px;
-  }
-  .skills .skill {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 20px;
-  }
-  .skills .skill > span {
-    font-size: x-large;
-  }
-  .skills .skill .container-i {
-    width: 70px;
-  }
-  .skills .skill > span i {
-    background-color: transparent;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .skills .skill > span i:hover {
-    filter: drop-shadow(0 0 0.75rem #008ac9);
-    transform: rotateY(3.142rad);
-    transition: 1s;
-  }
-  .skills .skill .container-text {
-    width: 250px;
-  }
-  /* Scroll infinito */
-  
-  .contenedor--planetas {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-  .lista--planetas{
-    width: 100%;
-    background-color: transparent;
-    margin: auto;
-    display: flex;
-    gap: 10px;
-  }
-  .lista--planetas::-webkit-scrollbar{
-    width: 0;
-  }
-  .lista--planetas li{
-    width: 200px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .lista--planetas li:hover{
-    transition-duration: 0.3s;
-    cursor: pointer;
-    filter: brightness(1.75);
-  }
-  .lista--planetas li img{
-    width: 100px;
-  }
-  .lista--planetas li{
-    animation: scrollInfinito 30s linear infinite;
-  }
-  @keyframes scrollInfinito{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(calc(-210px * 5));
-    }
-  }
+}

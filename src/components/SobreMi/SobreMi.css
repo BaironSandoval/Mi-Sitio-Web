@@ -1,32 +1,44 @@
 .sobremi {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.sobremi .contenido-seccion {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.sobremi h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+.sobremi .contenido-seccion p {
+  font-size: 28px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 20px;
+}
+.sobremi .contenido-seccion p span {
+  color: #03afff;
+  display: inline-block;
+  animation: shine 2s infinite;
+}
+@keyframes shine {
+  0% {
+    opacity: 1;
   }
-  .sobremi .contenido-seccion {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  50% {
+    opacity: 0.5;
   }
-  .sobremi h2 {
-    font-size: 48px;
-    font-family: 'Righteous';
-    font-weight: normal;
-    text-align: center;
-    margin: 0;
+  100% {
+    opacity: 1;
   }
-  .sobremi .contenido-seccion p {
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0;
-    padding: 0 20px;
-  }
-  .sobremi .contenido-seccion p span {
-    color: #008ac9;
-  }
+}
