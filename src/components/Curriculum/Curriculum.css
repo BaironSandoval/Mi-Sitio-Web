@@ -1,6 +1,8 @@
 .curriculum {
+  background-color: #f1f1f1;
   width: 100%;
   height: 100vh;
+  color: #333;
 }
 .curriculum .contenido-seccion {
   width: 100%;
@@ -36,6 +38,7 @@
   border-radius: 50%;
   border: 1px solid #757575;
   transition: 0.5s;
+  color: #757575;
 }
 
 .container-buttons button:hover {

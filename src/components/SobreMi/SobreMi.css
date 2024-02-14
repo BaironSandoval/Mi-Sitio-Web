@@ -1,7 +1,9 @@
 .sobremi {
+  background-color: #252525;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  color: white;
 }
 .sobremi .contenido-seccion {
   width: 100%;
@@ -27,7 +29,7 @@
   padding: 0 20px;
 }
 .sobremi .contenido-seccion p span {
-  color: #03afff;
+  color: #bdbcbc;
   display: inline-block;
   animation: shine 2s infinite;
 }

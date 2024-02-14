@@ -1,10 +1,13 @@
 .portfolio {
+  background-image: url(../Images/fondoNegro.jpg);
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #f1f1f1;
 }
 .portfolio .contenido-seccion {
   width: -webkit-fill-available;
@@ -19,7 +22,6 @@
 .swiper-slide {
   width: 300px;
   height: 300px;
-  background-color: rgba(204, 204, 204, 0.26);
   padding: 40px;
   text-align: center;
 }
@@ -33,8 +35,6 @@
   align-items: center;
   background: white;
   border-radius: 10px;
-  border: 2px solid gray;
-  box-shadow: 5px 5px 10px 1px rgba(180, 180, 180, 0.521);
   transition: 1.1s;
 }
 .product-content:hover {
@@ -46,11 +46,11 @@
 .product-txt h3 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #008ac9;
+  color: #333;
 }
 .product-txt p {
   font-size: 14px;
-  color: #008ac9;
+  color: #333;
 }
 .product-img {
   flex-basis: 50%;

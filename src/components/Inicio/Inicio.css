@@ -1,5 +1,5 @@
 .inicio {
-  background-image: url(../Images/fondo.gif);
+  background-image: url(../Images/fondoBlanco.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -8,7 +8,8 @@
   justify-content: center;
 }
 .inicio .contenido-banner {
-  background-color: rgba(160, 160, 160, 0.685);
+  background-image: url(../Images/Cart.jpg);
+  background-size: cover;
   width: 350px;
   height: 420px;
   text-align: center;
@@ -18,8 +19,8 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  box-shadow: 5px 5px 15px 1px rgba(180, 180, 180, 0.521);
   border: none;
+  color: #fff;
 }
 .inicio .contenido-banner img {
   width: 70%;
@@ -67,17 +68,18 @@
   line-height: 42px;
   font-size: 20px;
   transition: 0.5s;
-  color: #008ac9;
+  color: #f1f1f1;
 }
 .inicio .contenido-banner .redes a:hover,
 .contacto .redes a:hover {
-  background-color: #fff;
+  background-color: #333;
   transform: rotate(360deg);
 }
 .inicio button,
 .contacto button {
   cursor: pointer;
   border: 1px solid #fff;
+  color: #fff;
   border-radius: 5px;
   width: fit-content;
   font-size: 16px;
@@ -94,7 +96,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #333;
   border-radius: 4px;
   z-index: -1;
   transition: 1s;

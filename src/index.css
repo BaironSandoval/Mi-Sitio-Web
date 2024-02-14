@@ -1,34 +1,34 @@
 * {
-    text-decoration: none;
+  text-decoration: none;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .dark-mode {
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 .floating-button {
-    position: fixed;
-    top: 82px;
-    left: 5px;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  position: fixed;
+  top: 82px;
+  left: 5px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 button {
-    background-color: #fff;
-    color: #008ac9;
-    transition: 1s;
+  background-color: #fff;
+  color: #008ac9;
+  transition: 1s;
 }
 button:hover {
-    box-shadow: 0 0 10px 3px gray;
-    transform: scale(1.1);
+  box-shadow: 0 0 10px 3px gray;
+  transform: scale(1.1);
 }
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
