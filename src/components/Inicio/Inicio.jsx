@@ -1,7 +1,6 @@
 import React from "react";
 import "./Inicio.css";
-import fotoPerfil from "../Images/foto-portafolio.png"
-
+import fotoPerfil from "../Images/foto-portafolio.png";
 
 const Inicio = () => {
   return (
@@ -47,13 +46,13 @@ const Inicio = () => {
             </a>
           </div>
           <a
-            href="https://drive.google.com/uc?export=download&id=1p8Rp_aGy3LYpVv4CokO9KLDVSjwVwIWR"            
+            href="https://drive.google.com/uc?export=download&id=1UCijDA3Us3Iqpwq-ir1Swop5ZLirw8f3"
             target="_blank"
             rel="noreferrer"
           >
             <button className="btn-inicio">
-              MI CV
               <i className="fa-solid fa-download"></i>
+              MI Curriculum
               <span className="overlay"></span>
             </button>
           </a>

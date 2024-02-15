@@ -28,17 +28,7 @@ const SobreMi = () => {
             transition: "opacity 0.8s ease-in-out, transform 0.5s ease-in-out",
           }}
         >
-          Soy <span>Software Developer</span>, apasionado por la tecnología y su
-          evolución. Tengo la habilidad de comprender las necesidades del
-          usuario y ofrecer soluciones efectivas. Utilizando tecnologías como:{" "}
-          <span>
-            {" "}
-            JavaScript, React, Node.js, Express.js, PostgreSQL, HTML5, CSS3,
-            Tailwind, NPM, Git, Github, entre otras.
-          </span>
-          Valorizo el trabajo en equipo, el constante autoaprendizaje, la
-          disciplina y la comunicación asertiva. Me entrego por completo a cada
-          nuevo desafío que se cruza en mi camino.
+          Soy <span>Software Developer</span>, apasionado por lacreación y mantenimiento de aplicaciones, colaborador destacado en equipos diversos. Siempre listo para explorar las últimas tecnologías, disfruto enfrentar desafíos de manera innovadora y estoy comprometido con entregar soluciones de primera calidad.
         </p>
       </div>
     </section>

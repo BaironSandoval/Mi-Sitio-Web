@@ -1,10 +1,10 @@
-import React from 'react';
-import "./Contacto.css"
+import React from "react";
+import "./Contacto.css";
 const Contacto = () => {
   return (
     <section id="contacto" className="contacto">
       <div className="content-section">
-      <h2>Contacto</h2>
+        <h2>Contacto</h2>
         <div className="row">
           <form
             id="form"
@@ -17,7 +17,7 @@ const Contacto = () => {
               name="name"
               id="name"
               type="text"
-              placeholder="Tu nombre completo"
+              placeholder="Tu nombre"
               required
             />
             <label htmlFor="phone"></label>
@@ -33,7 +33,7 @@ const Contacto = () => {
               name="email"
               id="email"
               type="text"
-              placeholder="Dirección de correo"
+              placeholder="Correo"
               required
             />
             <label htmlFor="message"></label>
@@ -59,7 +59,7 @@ const Contacto = () => {
               value="spammy pattern, banned term, phrase"
             />
             <button type="submit">
-              Enviar Mensaje <i className="fa-regular fa-paper-plane"></i>
+              Enviar <i className="fa-regular fa-paper-plane"></i>
               <span className="overlay"></span>
             </button>
           </form>

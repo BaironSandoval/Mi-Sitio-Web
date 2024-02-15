@@ -106,3 +106,7 @@
   width: 100%;
   transition: 2s;
 }
+.btn-inicio {
+  display: flex;
+  gap: 5px;
+}
