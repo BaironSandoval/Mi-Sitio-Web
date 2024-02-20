@@ -1,18 +1,37 @@
 import React from "react";
 import "./Skills.css";
 
-import js from "../Images/js.png"
-import react from "../Images/react.svg"
-import node from "../Images/node.png"
-import express from "../Images/expressjs.png"
-import html from "../Images/html.webp"
-import css from "../Images/css.webp"
-import tailwind from "../Images/tailwind.png"
-import redux from "../Images/redux.png"
-import postgresql from "../Images/Postgresql_elephant.png"
-import git from "../Images/git.png"
-import github from "../Images/github-black.png"
+import js from "../Images/js.png";
+import react from "../Images/react.svg";
+import node from "../Images/node.png";
+import express from "../Images/expressjs.png";
+import html from "../Images/html.webp";
+import css from "../Images/css.webp";
+import tailwind from "../Images/tailwind.png";
+import redux from "../Images/redux.png";
+import postgresql from "../Images/Postgresql_elephant.png";
+import git from "../Images/git.png";
+import github from "../Images/github-black.png";
+import php from "../Images/php.png";
+import apache from "../Images/apache.png";
+import xampp from "../Images/xampp.jpg";
 
+const images = [
+  { src: js, alt: "JavaScript" },
+  { src: react, alt: "React Logo" },
+  { src: node, alt: "NodeJS Logo" },
+  { src: express, alt: "ExpressJS Logo" },
+  { src: html, alt: "HTML5 Logo" },
+  { src: css, alt: "CSS3 Logo" },
+  { src: tailwind, alt: "Tailwind CSSv2 Logo" },
+  { src: postgresql, alt: "PostgreSQL Database" },
+  { src: redux, alt: "Redux Logo" },
+  { src: git, alt: "skill-icon icon-git" },
+  { src: github, alt: "skill-icon icon-github" },
+  { src: php, alt: "skill-icon icon-php" },
+  { src: apache, alt: "Apache Server Icon" },
+  { src: xampp, alt: "XAMPP Server Icon" }
+];
 
 const Skills = () => {
   return (
@@ -27,256 +46,18 @@ const Skills = () => {
             <h3>Technical Skills</h3>
             <section id="contenedor--planetas" className="contenedor--planetas">
               <ul className="lista--planetas">
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={js}
-                      alt="js"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={html}
-                      alt="HTML5"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={css}
-                      alt="CSS3"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={tailwind}
-                      alt="Tailwind"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={react}
-                      alt="REACT"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={redux}
-                      alt="Redux"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={node}
-                      alt="Node.JS"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={express}
-                      alt="Express.JS"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={postgresql}
-                      alt="PostgreSQL"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={git}
-                      alt="GIT"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={github}
-                      alt="Github"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={js}
-                      alt="js"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={html}
-                      alt="HTML5"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={css}
-                      alt="CSS3"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={tailwind}
-                      alt="Tailwind"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={react}
-                      alt="REACT"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={redux}
-                      alt="Redux"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={node}
-                      alt="Node.JS"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={express}
-                      alt="Express.JS"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={postgresql}
-                      alt="PostgreSQL"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={git}
-                      alt="GIT"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={github}
-                      alt="Github"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={js}
-                      alt="js"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={html}
-                      alt="HTML5"
-                    />
-                  </picture>
-                </li>
-                <li>
-                  <picture>
-                    <img
-                      width="100"
-                      height="100"
-                      src={css}
-                      alt="CSS3"
-                    />
-                  </picture>
-                </li>
+                {images.map((image, index) => (
+                  <li key={index}>
+                    <picture>
+                      <img
+                        width="100"
+                        height="100"
+                        src={image.src}
+                        alt={image.alt}
+                      />
+                    </picture>
+                  </li>
+                ))}
               </ul>
             </section>
           </div>
