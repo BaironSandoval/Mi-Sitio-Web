@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import Swiper from "swiper";
 import "./Proyectos.css";
 
-import appGalaxy from "../Images/know_galaxy.jpeg"
-import appPokedex from "../Images/pokedex.jpeg"
-import appRickAndMorty from "../Images/rick_and_morty.jpeg"
-import appWeather from "../Images/weather_app.jpeg"
-import appCrud from "../Images/crud.jpeg"
-import appShopping from "../Images/Shopping_cartone.jpeg"
+import appGalaxy from "../Images/know_galaxy.gif";
+import appPokedex from "../Images/pokedex.jpeg";
+import appRickAndMorty from "../Images/rick_and_morty.jpeg";
+import appWeather from "../Images/weather_app.jpeg";
+import appCrud from "../Images/crud.jpeg";
+import appShopping from "../Images/Shopping_cartone.jpeg";
 
 const Proyectos = () => {
   useEffect(() => {
@@ -42,10 +42,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>Your Galaxy</h3>
-                    <p>React</p>
-                  </div>
                   <div className="product-img">
                     <img src={appGalaxy} alt="pokedex" />
                   </div>
@@ -60,10 +56,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>Pokedex</h3>
-                    <p>React</p>
-                  </div>
                   <div className="product-img">
                     <img src={appPokedex} alt="pokedex" />
                   </div>
@@ -78,10 +70,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>Rick and Morty</h3>
-                    <p>React</p>
-                  </div>
                   <div className="product-img">
                     <img src={appRickAndMorty} alt="pokedex" />
                   </div>
@@ -96,10 +84,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>Weather App</h3>
-                    <p>React</p>
-                  </div>
                   <div className="product-img">
                     <img src={appWeather} alt="pokedex" />
                   </div>
@@ -114,10 +98,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>CRUD</h3>
-                    <p>React</p>
-                  </div>
                   <div className="product-img">
                     <img src={appCrud} alt="pokedex" />
                   </div>
@@ -132,10 +112,6 @@ const Proyectos = () => {
                 rel="noreferrer"
               >
                 <div className="product-content">
-                  <div className="product-txt">
-                    <h3>Your Store</h3>
-                    <p>Javascript</p>
-                  </div>
                   <div className="product-img">
                     <img src={appShopping} alt="pokedex" />
                   </div>

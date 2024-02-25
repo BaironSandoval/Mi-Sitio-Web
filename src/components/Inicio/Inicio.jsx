@@ -46,7 +46,7 @@ const Inicio = () => {
             </a>
           </div>
           <a
-            href="https://drive.google.com/uc?export=download&id=1UCijDA3Us3Iqpwq-ir1Swop5ZLirw8f3"
+            href="https://drive.google.com/uc?export=download&id=10hiOBCER1gyqZQ_H-eD8QButGNuVWNWY"            
             target="_blank"
             rel="noreferrer"
           >
